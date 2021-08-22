@@ -1,0 +1,15 @@
+uuid: 3239a9d3-f473-4392-9810-5dcc9ff72569
+langcode: en
+status: true
+dependencies: {  }
+name: hero_large_2x
+label: 'Hero large 2x'
+effects:
+  b4afde22-8480-4c05-9976-5bdcbfecd373:
+    uuid: b4afde22-8480-4c05-9976-5bdcbfecd373
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 3800
+      height: 1400
+      anchor: center-top

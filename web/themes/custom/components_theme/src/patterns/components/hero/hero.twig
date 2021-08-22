@@ -1,0 +1,31 @@
+{{ attach_library('components_theme/hero') }}
+
+<section class="hero{{ modifier ? ' ' ~ modifier }}
+  {{- attributes ? attributes.class -}}"
+  {{- attributes ? attributes|without(class) -}}>
+  {% if image %}
+    <div class="hero__media">
+      {{ image }}
+    </div>
+  {% endif %}
+
+  <div class="hero__content">
+    {% if heading %}
+    {{ title_prefix }}
+      {%
+        include '@components_theme/heading/heading.twig' with {
+          "heading": heading
+        } only
+      %}
+      {{ title_suffix }}
+    {% endif %}
+
+    {% if cta %}
+      {%
+        include '@components_theme/button/button.twig' with {
+          "button": cta
+        } only
+      %}
+    {% endif %}
+  </div>
+</section>

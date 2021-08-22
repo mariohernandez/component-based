@@ -1,0 +1,29 @@
+uuid: 53076609-b746-4bd7-b200-67affca551d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage.field_hero
+    - node.type.homepage
+  module:
+    - user
+id: node.homepage.default
+targetEntityType: node
+bundle: homepage
+mode: default
+content:
+  field_hero:
+    weight: 101
+    label: hidden
+    settings:
+      view_mode: hero
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

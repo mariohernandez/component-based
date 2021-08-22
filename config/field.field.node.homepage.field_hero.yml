@@ -1,0 +1,29 @@
+uuid: a27050da-7124-43c1-a34e-e866642b8695
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero
+    - node.type.article
+    - node.type.homepage
+id: node.homepage.field_hero
+field_name: field_hero
+entity_type: node
+bundle: homepage
+label: Hero
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

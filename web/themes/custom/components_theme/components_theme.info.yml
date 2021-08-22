@@ -39,6 +39,7 @@ libraries-override:
 # The "libraries:" section will add a library to _all_ pages.
 libraries:
   - components_theme/global
+  - components_theme/webfonts
   # Example adding the webfonts library to every page.
   # See components_theme.libraries.yml for more info.
   #- components_theme/webfonts

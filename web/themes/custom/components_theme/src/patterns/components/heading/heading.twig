@@ -1,3 +1,5 @@
+{{ attach_library('components_theme/heading') }}
+
 <h{{ heading.heading_level|default('2') }} class="heading{{ heading.modifier ? ' ' ~ heading.modifier }}">
   {% if heading.url %}
     <a href="{{ heading.url }}" class="heading__link">

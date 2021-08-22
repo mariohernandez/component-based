@@ -1,0 +1,36 @@
+uuid: b65d7621-adb0-496f-9c48-9071efb7ac8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.hero
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - node.type.article
+    - responsive_image.styles.hero
+  module:
+    - responsive_image
+    - user
+_core:
+  default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
+id: node.article.hero
+targetEntityType: node
+bundle: article
+mode: hero
+content:
+  field_image:
+    type: responsive_image
+    weight: 0
+    region: content
+    settings:
+      responsive_image_style: hero
+      image_link: ''
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  body: true
+  comment: true
+  field_tags: true
+  links: true
