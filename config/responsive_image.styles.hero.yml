@@ -1,11 +1,11 @@
-uuid: 1c78575a-9348-4511-abf5-f238f43e415c
+uuid: f7a1b9fe-33b0-4ebc-87e4-0b9e886b06b4
 langcode: en
 status: true
 dependencies:
   config:
     - image.style.hero_large
     - image.style.hero_large_2x
-    - image.style.hero_medium
+    - image.style.hero_med
     - image.style.hero_medium_2x
     - image.style.hero_small
 id: hero
@@ -20,8 +20,8 @@ image_style_mappings:
       sizes_image_styles:
         - hero_large
         - hero_large_2x
-        - hero_medium
+        - hero_med
         - hero_medium_2x
         - hero_small
 breakpoint_group: responsive_image
-fallback_image_style: hero_medium
+fallback_image_style: hero_med

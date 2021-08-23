@@ -1,0 +1,15 @@
+uuid: e8302a54-3665-4b52-826b-e78ef409771f
+langcode: en
+status: true
+dependencies: {  }
+name: hero_med
+label: 'Hero med'
+effects:
+  27e2a02e-0deb-42f7-95a0-d96f2798c105:
+    uuid: 27e2a02e-0deb-42f7-95a0-d96f2798c105
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1600
+      height: 600
+      anchor: center-top

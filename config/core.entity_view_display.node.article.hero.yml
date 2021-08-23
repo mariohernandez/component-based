@@ -24,11 +24,11 @@ content:
     type: responsive_image
     weight: 0
     region: content
+    label: hidden
     settings:
       responsive_image_style: hero
       image_link: ''
     third_party_settings: {  }
-    label: hidden
 hidden:
   body: true
   comment: true

@@ -1,7 +1,7 @@
 {{ attach_library('components_theme/hero') }}
 
 <section class="hero{{ modifier ? ' ' ~ modifier }}
-  {{- attributes ? attributes.class -}}"
+  {{- attributes ? ' ' ~ attributes.class -}}"
   {{- attributes ? attributes|without(class) -}}>
   {% if image %}
     <div class="hero__media">
