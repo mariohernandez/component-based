@@ -29,10 +29,20 @@ global:
 #     - components_theme/clearfix
 #     - components_theme/visually-hidden
 
+author:
+  css:
+    component:
+      dist/css/author.css: {}
+
 button:
   css:
     component:
       dist/css/button.css: {}
+
+card:
+  css:
+    component:
+      dist/css/card.css: {}
 
 eyebrow:
   css:

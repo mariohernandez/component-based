@@ -1,0 +1,19 @@
+uuid: f86b7e9f-a627-422c-b9b3-dd890cf2615b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category
+    - node.type.article
+id: node.article.field_category
+field_name: field_category
+entity_type: node
+bundle: article
+label: Category
+description: 'Type a category for this blog post such as News, Sports, Nature, etc.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
